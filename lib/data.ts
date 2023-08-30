@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import adminDashboard from "@/public/images/adminDashboard.png";
 import ecommerceStore from "@/public/images/ecommerceStore.png";
-import airBnbApp from "@/public/images/airBnbApp.png";
+import airBnbApp from "@/public/images/airbnbApp.png";
 import agencyWebsite from "@/public/images/agencyWebsite.png";
 
 export const links = [
