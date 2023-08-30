@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import adminDashboard from "@/public/images/adminDashboard.png";
 import ecommerceStore from "@/public/images/ecommerceStore.png";
-import airBnbClone from "@/public/images/airBnbApp.png";
+import airBnbApp from "@/public/images/airBnbApp.png";
 import agencyWebsite from "@/public/images/agencyWebsite.png";
 
 export const links = [
@@ -83,7 +83,7 @@ export const projectsData = [
     description:
       "An Airbnb-like app that bridges property owners and travelers. List, book, and favorite spaces, track bookings, and filter options by location, guests, and beds. Your gateway to curated getaways.",
     tags: ["Next.JS", "Typescript", "Node,JS", "Tailwind", "Prisma", "MongoDB"],
-    imageUrl: airBnbClone,
+    imageUrl: airBnbApp,
     url: "https://ahmets-gateways.vercel.app/"
   },
   {
