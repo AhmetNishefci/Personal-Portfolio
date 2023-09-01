@@ -41,7 +41,7 @@ export const experiencesData = [
     description:
       "Four years of dedicated pursuit culminated in my graduation with a degree in Computer Science and Engineering. This journey symbolizes my commitment to mastering the digital realm, equipping me with the skills to innovate and shape the technological landscape.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023",
+    date: "2019-2023",
   },
   {
     title: "Software Engineer",
@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "At Pabau Clinic Software, I spearheaded responsive design, ensuring optimal user experiences across devices. Collaborating cross-functionally, I contributed to robust security features like two-factor authentication. I engineered scalable components using React, Next.js, and TypeScript, while also supporting backend development with Nest.js, Prisma, and PostgreSQL. I excelled in Agile settings, advocated Test-Driven Development, and conducted end-to-end tests using Cypress. Through cache optimization and active code reviews, I consistently elevated quality and met deadlines in fast-paced environments.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "Jul 2022 - Sep 2023",
   },
 ] as const;
 
