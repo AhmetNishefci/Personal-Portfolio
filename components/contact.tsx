@@ -60,7 +60,7 @@ export const Contact = () => {
         }}
       >
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-14 px-4 rounded-lg bg-white bg-opacity-70 focus:bg-opacity-80 borderBlack dark:bg-white dark:bg-opacity-70 dark:focus:bg-opacity-80  transition-all dark:outline-none"
           name="senderEmail"
           type="email"
           required
@@ -68,7 +68,7 @@ export const Contact = () => {
           placeholder="Your email"
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-52 my-3 rounded-lg bg-white bg-opacity-70 focus:bg-opacity-80 borderBlack p-4 dark:bg-white dark:bg-opacity-70 dark:focus:bg-opacity-80  transition-all dark:outline-none"
           name="message"
           placeholder="Your message"
           required

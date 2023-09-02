@@ -13,3 +13,51 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.luffy-image {
+  position: fixed;
+  top: -10px;
+  left: 0;
+  width: 650px; 
+  height: 100%;
+  background-image: url('../public/images/luffy.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; 
+}
+
+@media (max-width: 768px) {
+  .luffy-image {
+    width: 100%;
+    height: auto;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .luffy-image {
+    width: 100%; 
+    height: auto;
+    background-size: cover;
+    position: absolute; 
+    top: 0;
+  }
+}
+
+@media (min-width: 821px) and (max-width: 912px) {
+  .luffy-image {
+ 
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: absolute; 
+    top: 0;
+  }
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+}
