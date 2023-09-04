@@ -6,8 +6,9 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import Ahmet from "@/public/images/ahmet_nishefci.jpg"
+import TypewritterComponent from "typewriter-effect";
 
+import Ahmet from "@/public/images/ahmet_nishefci.jpg";
 import { useSectionInView } from "@/hooks/useSectionInView";
 import { useActiveSection } from "@/hooks/useActiveSection";
 
@@ -41,7 +42,7 @@ export const Intro = () => {
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
- 
+
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
@@ -63,9 +64,27 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Yo, I'm Ahmet 😎,</span> the Code Conjurer🪄. I enjoy crafting wonders with {" "}
-        <span className="font-bold">Javascript {" "}</span>
-        <span>Magic ✨. Been turning code into Canvas for Digital Masterpieces 🎨, and yes I'm a funny guy😁</span>
+        <span className="font-bold">Yo, I'm Ahmet 😎,</span> the Code
+        Conjurer🪄. I enjoy crafting wonders with{" "}
+        <span className="font-bold">
+          <TypewritterComponent
+            options={{
+              strings: [
+                "Javascript",
+                "React",
+                "Next.js",
+                "Node.js",
+                "Express.js",
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </span>
+        <span>
+          Magic ✨. Been turning code into Canvas for Digital Masterpieces 🎨,
+          and yes I'm a funny guy😁
+        </span>
       </motion.h1>
 
       <motion.div
@@ -115,4 +134,4 @@ export const Intro = () => {
       </motion.div>
     </section>
   );
-}
+};

@@ -25,7 +25,9 @@ export const Experience = () => {
             <VerticalTimelineElement
               contentStyle={{
                 background:
-                theme === "light" ? "rgba(255, 255, 255, 0.8)" : "rgba(255, 255, 255, 0.05)",
+                  theme === "light"
+                    ? "rgba(255, 255, 255, 0.6)"
+                    : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -41,7 +43,9 @@ export const Experience = () => {
               icon={item.icon}
               iconStyle={{
                 background:
-                  theme === "light" ? "rgba(255, 255, 255, 0.8)" : "rgba(255, 255, 255, 0.15)",
+                  theme === "light"
+                    ? "rgba(255, 255, 255, 0.8)"
+                    : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
             >
@@ -56,4 +60,4 @@ export const Experience = () => {
       </VerticalTimeline>
     </section>
   );
-}
+};
