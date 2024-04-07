@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaReact } from "react-icons/fa";
 import TypewritterComponent from "typewriter-effect";
 
 import Ahmet from "@/public/images/ahmet_nishefci.jpg";
@@ -60,35 +60,27 @@ export const Intro = () => {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl max-w-[730px]"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Yo, I'm Ahmet 😎,</span> the Code
-        Conjurer🪄. I enjoy crafting wonders with{" "}
+        Conjurer🪄. Passionate about transforming ideas 💡 into reality 🌐 with
         <span className="font-bold">
           <TypewritterComponent
             options={{
-              strings: [
-                "Javascript",
-                "React",
-                "Next.js",
-                "Node.js",
-                "Express.js",
-              ],
+              strings: ["Javascript", "React", "Next.js", "Node.js"],
               autoStart: true,
               loop: true,
             }}
           />
         </span>
-        <span>
-          Magic ✨. Been turning code into Canvas for Digital Masterpieces 🎨,
-          and yes I'm a funny guy😁
-        </span>
+        and a dash of magic ✨. Crafting digital masterpieces 🎨 and innovative
+        solutions 🤔 is what drives me 😃.
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -109,7 +101,7 @@ export const Intro = () => {
 
         <a
           className="group bg-white/60 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white/80 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV_Ahmet_Nishefci_-_Software_Engineer.pdf"
+          href="/Ahmet_Nishefci_-_Software_Engineer.pdf"
           download
         >
           Download My CV{" "}

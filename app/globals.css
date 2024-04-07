@@ -16,11 +16,11 @@ html.dark {
 
 .luffy-image {
   position: fixed;
-  top: -10px;
+  top: 240px;
   left: 0;
   width: 650px; 
-  height: 100%;
-  background-image: url('../public/images/luffy.png'); 
+  height: 550px;
+  background-image: url('../public/images/Luffy3.png'); 
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1; 
@@ -60,4 +60,13 @@ html.dark {
 .main-content {
   position: relative;
   z-index: 1;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100px, 100px);
+  }
 }

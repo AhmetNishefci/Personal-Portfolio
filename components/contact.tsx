@@ -9,11 +9,9 @@ import { SubmitButton } from "./submitButton";
 import { useSectionInView } from "@/hooks/useSectionInView";
 import { sendEmail } from "@/actions/sendEmail";
 
-
 export const Contact = () => {
   const { ref } = useSectionInView("Contact");
   const formRef = useRef<HTMLFormElement>(null);
-
 
   return (
     <motion.section
@@ -33,14 +31,15 @@ export const Contact = () => {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Summon the Wizard 🧙</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        I invite you to reach out to me directly at {""}
         <a className="font-bold" href="mailto:ahmetnishefcii@gmail.com">
           ahmetnishefcii@gmail.com
         </a>{" "}
-        or through this form.
+        or use the form below to send your missives through the ethereal
+        network, and await the whisper of magic in response. 😁
       </p>
 
       <form
@@ -78,4 +77,4 @@ export const Contact = () => {
       </form>
     </motion.section>
   );
-}
+};

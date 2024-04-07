@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaCode, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import adminDashboard from "@/public/images/adminDashboard.png";
 import ecommerceStore from "@/public/images/ecommerceStore.png";
@@ -43,21 +43,22 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2019-2023",
   },
-  {
-    title: "Software Engineer",
-    location: "Freelance",
-    description:
-      "Embarking on my first year as a developer, I leapt into a whirlwind of real-world projects with two trusted companions. Across international borders, we answered the calls of clients seeking digital solutions. Our focus, particularly on e-commerce platforms, showcased our prowess in React, Next.js, Node, and Prisma. This year marked the beginning of a journey where we turned code into tailored experiences, one project at a time.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
-  },
+
   {
     title: "Software Engineer at Pabau Clinic Software",
-    location: "Prishtina, Kosovo",
+    location: "Prishtina, Kosovo ( Hybrid )",
     description:
       "At Pabau Clinic Software, I spearheaded responsive design, ensuring optimal user experiences across devices. Collaborating cross-functionally, I contributed to robust security features like two-factor authentication. I engineered scalable components using React, Next.js, and TypeScript, while also supporting backend development with Nest.js, Prisma, and PostgreSQL. I excelled in Agile settings, advocated Test-Driven Development, and conducted end-to-end tests using Cypress. Through cache optimization and active code reviews, I consistently elevated quality and met deadlines in fast-paced environments.",
     icon: React.createElement(FaReact),
-    date: "Jul 2022 - Sep 2023",
+    date: "Jul 2022 - Nov 2023",
+  },
+  {
+    title: "Software Engineer at Adscribe",
+    location: "London, UK ( Remote )",
+    description:
+      "At Adscribe, I played a pivotal role in developing and implementing innovative features to enhance collaboration and user experience. I led the creation of a permission-based sharing feature, developed expandable UI components, and implemented automated version control with GitHub Actions. Additionally, I spearheaded document generation functionalities using ReactPDF and maintained high standards of quality through Test-Driven Development with Jest and comprehensive testing with Cypress. My efforts in UI development were supported by Storybook for component management, ensuring a seamless integration of visual elements.",
+    icon: React.createElement(FaCode),
+    date: "Nov 2023 - Present",
   },
 ] as const;
 
@@ -68,7 +69,7 @@ export const projectsData = [
       "Create, edit and delete store elements. Monitor customer orders and track sales trends monthly with interactive graphs. Efficient eCommerce control",
     tags: ["Next.JS", "Typescript", "Node.JS", "Tailwind", "Prisma", "MySQL"],
     imageUrl: adminDashboard,
-    url: "https://admin-ecommerce-dashboard.vercel.app/"
+    url: "https://admin-ecommerce-dashboard.vercel.app/",
   },
   {
     title: "Ecommerce Store",
@@ -76,7 +77,7 @@ export const projectsData = [
       "Browse categories, filter products, paginate, sorting, view details, and effortlessly fill your cart. Checkout is a breeze, powered by Stripe for secure card payments.",
     tags: ["Next.JS", "TypeScript", "Node.JS", "Tailwind", "Prisma", "Zustand"],
     imageUrl: ecommerceStore,
-    url: "https://ahmet-store.vercel.app/"
+    url: "https://ahmet-store.vercel.app/",
   },
   {
     title: "Airbnb Clone",
@@ -84,15 +85,15 @@ export const projectsData = [
       "An Airbnb-like app that bridges property owners and travelers. List, book, and favorite spaces, track bookings, and filter options by location, guests, and beds. Your gateway to curated getaways.",
     tags: ["Next.JS", "Typescript", "Node,JS", "Tailwind", "Prisma", "MongoDB"],
     imageUrl: airBnbApp,
-    url: "https://ahmets-gateways.vercel.app/"
+    url: "https://ahmets-gateways.vercel.app/",
   },
   {
     title: "Agency Website",
     description:
-    "Explore my beginner's Next.js agency site: smooth animations, seamless page transitions, and a user-friendly contact form. Tech meets aesthetics for a captivating digital experience. Simple frontend only.",
-    tags: ["React", "Next.js", "CSS modules",],
+      "Explore my beginner's Next.js agency site: smooth animations, seamless page transitions, and a user-friendly contact form. Tech meets aesthetics for a captivating digital experience. Simple frontend only.",
+    tags: ["React", "Next.js", "CSS modules"],
     imageUrl: agencyWebsite,
-    url: "https://ahmet-agency-website.vercel.app/"
+    url: "https://ahmet-agency-website.vercel.app/",
   },
 ] as const;
 
