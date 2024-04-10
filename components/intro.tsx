@@ -65,7 +65,7 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Yo, I'm Ahmet 😎,</span> the Code
-        Conjurer🪄. Passionate about transforming ideas 💡 into reality 🌐 with
+        Conjurer🧙‍♂️. Passionate about transforming ideas 💡 into reality 🌐 with
         <span className="font-bold">
           <TypewritterComponent
             options={{
@@ -75,8 +75,8 @@ export const Intro = () => {
             }}
           />
         </span>
-        and a dash of magic ✨. Crafting digital masterpieces 🎨 and innovative
-        solutions 🤔 is what drives me 😃.
+        and a dash of magic ✨🪄. Crafting digital masterpieces 🎨 and
+        innovative solutions 🤔 is what drives me 💪.
       </motion.h1>
 
       <motion.div

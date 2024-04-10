@@ -8,6 +8,7 @@ import { ThemeSwitch } from "@/components/themeSwitcher";
 import { Footer } from "@/components/footer";
 import { FireFliesBackground } from "@/components/fireFliesBackgound";
 import { Sound } from "@/components/sound";
+import { ConfettiProvider } from "@/providers/confetiProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,10 +30,16 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <div className="main-content">
           <Header />
           {children}
+          <ConfettiProvider />
           <FireFliesBackground />
           <Sound />
           <Footer />
-          <Toaster position="top-right" />
+          <Toaster
+            position="top-right"
+            toastOptions={{
+              duration: 5000,
+            }}
+          />
           <ThemeSwitch />
         </div>
       </body>

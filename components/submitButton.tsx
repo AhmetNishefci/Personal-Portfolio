@@ -1,4 +1,3 @@
-import { FaPaperPlane } from "react-icons/fa";
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 
 export const SubmitButton = () => {
@@ -11,12 +10,12 @@ export const SubmitButton = () => {
       disabled={pending}
     >
       {pending ? (
-        <div className="h-5 w-5 animate-spin rounded-full border-b-2 border-white" />
-      ) : (
         <>
-          Cast your message! 🪄{" "}
-          {/* <FaPaperPlane className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1" />{" "} */}
+          <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white" />
+          <span className="pl-1 ">Abracadabra 🪄</span>{" "}
         </>
+      ) : (
+        <>Cast your message! 🪄</>
       )}
     </button>
   );

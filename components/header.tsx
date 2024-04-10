@@ -9,7 +9,7 @@ import { useActiveSection } from "@/hooks/useActiveSection";
 
 export const Header = () => {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
-  useActiveSection();
+    useActiveSection();
 
   return (
     <header className="z-[999] relative">
@@ -30,9 +30,9 @@ export const Header = () => {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-300 transition dark:text-gray-500 dark:hover:text-gray-300",
+                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-300 transition dark:text-gray-500 dark:hover:text-gray-400",
                   {
-                    "text-gray-100 dark:text-gray-200":
+                    "text-gray-100 dark:text-white":
                       activeSection === link.name,
                   }
                 )}
@@ -62,4 +62,4 @@ export const Header = () => {
       </nav>
     </header>
   );
-}
+};

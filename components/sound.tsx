@@ -8,29 +8,6 @@ export const Sound: React.FC = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
 
-  useEffect(() => {
-    const handleFirstUserInteraction = () => {
-      if (!isPlaying && audioRef.current) {
-        audioRef.current.play();
-        setIsPlaying(true);
-      }
-
-      ["click", "keydown", "touchstart"].forEach((event) =>
-        document.removeEventListener(event, handleFirstUserInteraction)
-      );
-    };
-
-    ["click", "keydown", "touchstart"].forEach((event) =>
-      document.addEventListener(event, handleFirstUserInteraction)
-    );
-
-    return () => {
-      ["click", "keydown", "touchstart"].forEach((event) =>
-        document.removeEventListener(event, handleFirstUserInteraction)
-      );
-    };
-  }, [isPlaying]);
-
   const toggle = () => {
     const newState = !isPlaying;
     setIsPlaying(newState);

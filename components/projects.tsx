@@ -11,7 +11,7 @@ export const Projects = () => {
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-      <SectionHeading>My projects</SectionHeading>
+      <SectionHeading>My projects 🧑‍💻</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
@@ -21,4 +21,4 @@ export const Projects = () => {
       </div>
     </section>
   );
-}
+};
