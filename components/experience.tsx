@@ -29,9 +29,14 @@ export const Experience = () => {
                     ? "rgba(255, 255, 255, 0.6)"
                     : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
+                border: `${
+                  theme === "dark"
+                    ? "2px solid rgb(147 197 253 / 0.5)"
+                    : "2px solid rgb(59 130 246 / 0.5)"
+                }`,
                 textAlign: "left",
                 padding: "1.3rem 2rem",
+                borderRadius: "1rem",
               }}
               contentArrowStyle={{
                 borderRight:

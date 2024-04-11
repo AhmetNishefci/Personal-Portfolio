@@ -17,20 +17,21 @@ export const About = () => {
       id="about"
     >
       <SectionHeading>About me 🤔</SectionHeading>
-      <p className="mb-3">
-        I am a <span className="font-medium">software engineer</span> with
-        expertise spanning{" "}
-        <span className="font-bold">
+
+      <p className="mb-3 relative z-10">
+        I am a <span className="font-semibold">software engineer</span> with
+        expertise spanning
+        <span className="dark:text-blue-400  text-blue-700 font-bold px-2">
           React, Next.js, Node.js, Typescript, Express, Nest, MongoDB, SQL,
           Prisma, GraphQL, REST... 🧑‍💻{" "}
-        </span>
-        My career highlights feature the successful delivery of scalable web
-        applications that exceeded client expectations and elevated user
-        engagement ✅. I excel in solving intricate challenges 🏃‍♂️, collaborating
-        across teams 🗣️, and adhering to project timelines ⏳. Committed to ongoing
-        learning ⏭️ and possessing strong communication skills 💬, I offer valuable
-        contributions to organizations seeking to enhance their development
-        endeavors 💎.
+        </span>{" "}
+        and more. My career highlights feature the successful delivery of
+        scalable web applications that exceeded client expectations and elevated
+        user engagement ✅. I excel in solving intricate challenges 🏃‍♂️,
+        collaborating across teams 🗣️, and adhering to project timelines ⏳.
+        Committed to ongoing learning ⏭️ and possessing strong communication
+        skills 💬, I offer valuable contributions to organizations seeking to
+        enhance their development endeavors 💎.
       </p>
       <p>
         When I'm not coding, you can find me slaying villains in video games 🎮,

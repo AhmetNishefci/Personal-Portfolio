@@ -23,7 +23,7 @@ html.dark {
   background-image: url('../public/images/Luffy3.png'); 
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -1; 
+  z-index: 1; 
 }
 
 @media (max-width: 768px) {
@@ -69,4 +69,17 @@ html.dark {
   100% {
     transform: translate(100px, 100px);
   }
+}
+
+/* Add these in your global CSS file */
+.timeline-light {
+  --timeline-bg: rgba(255, 255, 255, 0.6);
+  --arrow-color: #9ca3af;
+  --icon-bg: rgba(255, 255, 255, 0.8);
+}
+
+.timeline-dark {
+  --timeline-bg: rgba(255, 255, 255, 0.05);
+  --arrow-color: rgba(255, 255, 255, 0.5);
+  --icon-bg: rgba(255, 255, 255, 0.15);
 }

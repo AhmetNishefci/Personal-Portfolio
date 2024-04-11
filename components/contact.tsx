@@ -65,7 +65,7 @@ export const Contact = () => {
         }}
       >
         <input
-          className="h-14 px-4 rounded-lg bg-white bg-opacity-70 hover:border-1 dark:hover:border-yellow-400 hover:border-gray-700 focus:border-2 focus:border-yellow-400 focus:bg-opacity-80 borderBlack dark:bg-white dark:bg-opacity-70 dark:focus:bg-opacity-80 transition-all dark:outline-none placeholder-gray-500 dark:placeholder-gray-600"
+          className="h-14 px-4 rounded-lg bg-white bg-opacity-70 hover:border-1 dark:hover:border-blue-300/50 hover:border-gray-700 focus:border-2 focus:border-blue-300/50  focus:bg-opacity-80 borderBlack dark:bg-white dark:bg-opacity-70 dark:focus:bg-opacity-80 transition-all dark:outline-none placeholder-gray-500 dark:placeholder-gray-600"
           name="senderEmail"
           type="email"
           required
@@ -74,7 +74,7 @@ export const Contact = () => {
         />
 
         <textarea
-          className="h-52 my-3 rounded-lg hover:border-1 dark:hover:border-yellow-400 borderBlack focus:border-2 focus:border-yellow-400 hover:border-gray-700 bg-white bg-opacity-70 focus:bg-opacity-80  border-gray-700 p-4 dark:bg-white dark:bg-opacity-70 dark:focus:bg-opacity-80 transition-all dark:outline-none placeholder-gray-500 dark:placeholder-gray-600"
+          className="h-52 my-3 rounded-lg hover:border-1 dark:hover:border-blue-300/50 borderBlack focus:border-2 focus:border-blue-300/50 hover:border-gray-700 bg-white bg-opacity-70 focus:bg-opacity-80  border-gray-700 p-4 dark:bg-white dark:bg-opacity-70 dark:focus:bg-opacity-80 transition-all dark:outline-none placeholder-gray-500 dark:placeholder-gray-600"
           name="message"
           placeholder="Craft your message 💭🔮"
           required
