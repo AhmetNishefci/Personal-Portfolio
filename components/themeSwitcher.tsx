@@ -10,9 +10,12 @@ export const ThemeSwitch = () => {
   const { theme, toggleTheme, setTheme } = useTheme();
 
   useEffect(() => {
-    const savedTheme = window.localStorage.getItem("theme") as Theme;
+    const savedTheme =
+      (window.localStorage.getItem("theme") as Theme) || "dark";
     setTheme(savedTheme);
   }, [setTheme]);
+
+  console.log("theme", theme);
 
   return (
     <button
