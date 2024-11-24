@@ -1,5 +1,4 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaCode, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import adminDashboard from "@/public/images/adminDashboard.png";
