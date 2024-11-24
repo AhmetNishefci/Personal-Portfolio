@@ -5,10 +5,10 @@ import adminDashboard from "@/public/images/adminDashboard.png";
 import ecommerceStore from "@/public/images/ecommerceStore.png";
 import airBnbApp from "@/public/images/airbnbApp.png";
 import agencyWebsite from "@/public/images/agencyWebsite.png";
-import careFree from "@/public/images/careFree.png";
+import careFree from "@/public/images/carefree.png";
 import blueesim from "@/public/images/blueesim.png";
 import airpop from "@/public/images/airpop.png";
-import cvFormatting from "@/public/images/cvFormatting.png";
+import cvFormatting from "@/public/images/cvformatting.png";
 import shoppingCart from "@/public/images/shoppingCart.png";
 
 export const links = [
