@@ -69,7 +69,7 @@ export const Intro = () => {
         <span className="font-bold">
           <TypewritterComponent
             options={{
-              strings: ["Javascript", "React", "Next.js", "Node.js"],
+              strings: ["Javascript", "Typescript", "React", "Next.js", "Vue", "Node.js"],
               autoStart: true,
               loop: true,
             }}

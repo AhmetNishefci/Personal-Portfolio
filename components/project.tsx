@@ -29,7 +29,7 @@ export const Project = ({
           scale: scaleProgess,
           opacity: opacityProgess,
         }}
-        className="group mb-3 sm:mb-8 last:mb-0 cursor-pointer  "
+        className="group mb-3 sm:mb-8 last:mb-0 pt-2 cursor-pointer  "
       >
         <section className="bg-gray-100/60 max-w-[42rem] border-2 dark:border-blue-300/50 border-blue-500/50 rounded-2xl overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-sky-200/80 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">

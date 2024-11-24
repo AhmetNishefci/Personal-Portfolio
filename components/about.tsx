@@ -22,7 +22,7 @@ export const About = () => {
         I am a <span className="font-semibold">software engineer</span> with
         expertise spanning
         <span className="dark:text-blue-400  text-blue-700 font-bold px-2">
-          React, Next.js, Node.js, Typescript, Express, Nest, MongoDB, SQL,
+          Javascript, Typescript, React, Next.js, Vue, Node.js, Express, Fastify, Nest, SQL,
           Prisma, GraphQL, REST... 🧑‍💻{" "}
         </span>{" "}
         and more. My career highlights feature the successful delivery of

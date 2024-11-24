@@ -6,6 +6,11 @@ import adminDashboard from "@/public/images/adminDashboard.png";
 import ecommerceStore from "@/public/images/ecommerceStore.png";
 import airBnbApp from "@/public/images/airbnbApp.png";
 import agencyWebsite from "@/public/images/agencyWebsite.png";
+import careFree from "@/public/images/careFree.png";
+import blueesim from "@/public/images/blueesim.png";
+import airpop from "@/public/images/airpop.png";
+import cvFormatting from "@/public/images/cvFormatting.png";
+import shoppingCart from "@/public/images/shoppingCart.png";
 
 export const links = [
   {
@@ -43,26 +48,58 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2019-2023",
   },
-
+  {
+    title: "Freelancer",
+    location: "Remote",
+    description:
+      "During my last year of studies, I started freelancing to explore and experiment with different programming languages and frameworks. I built small projects for clients, ranging from simple websites to interactive applications, while also working on fun side projects to deepen my understanding of software development. This period was instrumental in developing my problem-solving skills and passion for creating innovative solutions.",
+    icon: React.createElement(FaCode),
+    date: "Mar 2021 - Jun 2022",
+  },
   {
     title: "Software Engineer at Pabau Clinic Software",
-    location: "Prishtina, Kosovo ( Hybrid )",
+    location: "Prishtina, Kosovo (Hybrid)",
     description:
-      "At Pabau Clinic Software, I spearheaded responsive design, ensuring optimal user experiences across devices. Collaborating cross-functionally, I contributed to robust security features like two-factor authentication. I engineered scalable components using React, Next.js, and TypeScript, while also supporting backend development with Nest.js, Prisma, and PostgreSQL. I excelled in Agile settings, advocated Test-Driven Development, and conducted end-to-end tests using Cypress. Through cache optimization and active code reviews, I consistently elevated quality and met deadlines in fast-paced environments.",
+      "At Pabau, an all-in-one practice management software, I played a critical role in enhancing the platform's capabilities to simplify healthcare providers' workflows. I developed the two-factor authentication (2FA) feature to enhance security and built reusable, responsive components with thorough testing using Jest, Cypress, and Storybook. I introduced testing practices by creating the first Cypress smoke test for a page and delivered a presentation to the team on leveraging Jest for testing. As an active code reviewer and default PR reviewer, I ensured code quality and consistency across the team. In my last three months, I led a team of interns, conducted standups, mentored them on tasks, and supported their development. I also implemented a drag-and-drop reorder feature using React Beautiful DnD, created custom resolvers, and debugged and resolved critical bugs. My work consistently focused on building scalable, efficient, and user-friendly features while fostering a collaborative and high-performing team environment.",
     icon: React.createElement(FaReact),
-    date: "Jul 2022 - Nov 2023",
+    date: "Jan 2022 - Jul 2023",
   },
+  
   {
     title: "Software Engineer at Adscribe",
     location: "London, UK ( Remote )",
     description:
-      "At Adscribe, I played a pivotal role in developing and implementing innovative features to enhance collaboration and user experience. I led the creation of a permission-based sharing feature, developed expandable UI components, and implemented automated version control with GitHub Actions. Additionally, I spearheaded document generation functionalities using ReactPDF and maintained high standards of quality through Test-Driven Development with Jest and comprehensive testing with Cypress. My efforts in UI development were supported by Storybook for component management, ensuring a seamless integration of visual elements.",
+      "At Adscribe, a cutting-edge AI-recruitment platform, I contributed to building innovative solutions that streamline recruitment processes with unmatched efficiency and precision. I developed a CV formatting tool that enables users to configure CVs by choosing templates, generating candidate-specific CVs, and updating data in real-time with a live preview. The tool also supports exporting CVs as PDFs. Additionally, I implemented partial campaign generation and single document generation using BullMQ and polling, ensuring a seamless user experience without blocking the UI during document creation. I also built web scraping tools using Puppeteer and enhanced document generation functionality with ReactPDF. My role included creating permission-based sharing features, expandable UI components, and automated version control with GitHub Actions. I consistently maintained high-quality standards through tests (Jest) and comprehensive end-to-end testing (Cypress). Leveraging Storybook, I ensured seamless integration of UI components, delivering a robust and user-friendly experience.",
     icon: React.createElement(FaCode),
-    date: "Nov 2023 - Present",
+    date: "Jul 2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "CV Formatting",
+    description:
+      "Built an intelligent CV formatting tool at Adscribe, enabling automated CV generation, template selection, live preview, and export options for professional branding.",
+    tags: ["React", "Next.js", "TypeScript", "Node.js", "GraphQL", "Prisma", "ReactPDF"],
+    imageUrl: cvFormatting, 
+    url: 'https://adscribe-wiki.super.site/v140-cv-formatting-letterheads-revamped-document-branding-and-more',
+  },  
+  {
+    title: "Blue eSIM",
+    description:
+      "A seamless eSIM solution for travelers, offering global coverage, flexible plans, and instant activation to stay connected worldwide.",
+    tags: ["React", "Next.js", "TypeScript", "Node.js", 'PostgreSQL', "Supabase"],
+    imageUrl: blueesim,
+    url: 'https://blue-esim.com/', 
+  },
+  {
+    title: "Carefree",
+    description:
+    "Empowers merchants to offer free services, increase vehicle value, and attract customers with a quality-checked network across Switzerland.",
+    tags: ["React", "Next.js", "TypeScript", "Node.js", "Tailwind", "Prisma", "PostgreSQL", "Supabase"],
+    imageUrl: careFree,
+    url: "https://www.care-free.ch/",
+  },
   {
     title: "Admin Ecommerce Dashboard",
     description:
@@ -80,12 +117,28 @@ export const projectsData = [
     url: "https://ahmet-store.vercel.app/",
   },
   {
+    title: "AirPop - Social Media Mobile App",
+    description:
+      "Connect with people around you by sharing your moments effortlessly on AirPop. A modern social media app for seamless interactions.",
+    tags: ["React Native", "TypeScript", "Firebase"],
+    imageUrl: airpop, 
+    url: "", 
+  },
+  {
     title: "Airbnb Clone",
     description:
       "An Airbnb-like app that bridges property owners and travelers. List, book, and favorite spaces, track bookings, and filter options by location, guests, and beds. Your gateway to curated getaways.",
     tags: ["Next.JS", "Typescript", "Node,JS", "Tailwind", "Prisma", "MongoDB"],
     imageUrl: airBnbApp,
     url: "https://ahmets-gateways.vercel.app/",
+  },
+  {
+    title: "Shopping Cart",
+    description:
+      "A Vue.js shopping cart where users can add products to the cart, view details, increase quantity, delete items, and see the cart overview.",
+    tags: ["Vue 3", "TypeScript", "Pinia", "Composition API", "Tailwind"],
+    imageUrl: shoppingCart,
+    url: "https://github.com/AhmetNishefci/ShoppingCartVue/tree/master", 
   },
   {
     title: "Agency Website",
@@ -106,14 +159,23 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Vue",
   "Redux",
   "Zustand",
+  "Pinia",
   "Node.js",
   "Express",
+  "Fastify",
+  "NestJS",
   "PostgreSQL",
   "MySQL",
   "MongoDB",
   "Mongoose",
+  "Sentry",
+  "Docker",
+  "Redis",
+  "Mixpanel",
+  "Webhooks",
   "Prisma",
   "Git",
   "GraphQL",
@@ -126,4 +188,6 @@ export const skillsData = [
   "Framer Motion",
   "Jest",
   "Cypress",
+  "Polling",
+  "BullMQ",
 ] as const;
