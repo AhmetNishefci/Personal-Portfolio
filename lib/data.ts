@@ -61,7 +61,7 @@ export const experiencesData = [
     description:
      "At Starswapp, I worked remotely on diverse projects for clients across industries, delivering innovative solutions with precision and quality. I developed a service car management platform for a Swiss client (Care-Free), enabling efficient scheduling and tracking. I also built Airpop, a React Native social media app, incorporating real-time updates and user-friendly features. For a family business, I created a custom application to streamline operations for mobile homes, kitchens, and bathrooms. Additionally, I designed an e-travel app promoting tourism in Kosovo, featuring interactive maps and curated itineraries. My role also involved developing small e-commerce platforms with responsive designs and secure payment gateways. These experiences refined my skills in problem-solving, remote collaboration, and delivering scalable solutions tailored to client needs.",
     icon: React.createElement(FaCode),
-    date: "Dec 2020 - Jan 2022",
+    date: "Nov 2020 - Jan 2022",
   },
   {
     title: "Graduated from University of Business and Technology",
