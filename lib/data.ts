@@ -40,20 +40,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated from University of Business and Technology",
-    location: "Prishtina, Kosovo",
+    title: "Software Engineer at Adscribe",
+    location: "London, UK ( Remote )",
     description:
-      "Four years of dedicated pursuit culminated in my graduation with a degree in Computer Science and Engineering. This journey symbolizes my commitment to mastering the digital realm, equipping me with the skills to innovate and shape the technological landscape.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019-2023",
-  },
-  {
-    title: "Freelancer",
-    location: "Remote",
-    description:
-      "During my last year of studies, I started freelancing to explore and experiment with different programming languages and frameworks. I built small projects for clients, ranging from simple websites to interactive applications, while also working on fun side projects to deepen my understanding of software development. This period was instrumental in developing my problem-solving skills and passion for creating innovative solutions.",
+      "At Adscribe, a cutting-edge AI-recruitment platform, I contributed to building innovative solutions that streamline recruitment processes with unmatched efficiency and precision. I developed a CV formatting tool that enables users to configure CVs by choosing templates, generating candidate-specific CVs, and updating data in real-time with a live preview. The tool also supports exporting CVs as PDFs. Additionally, I implemented partial campaign generation and single document generation using BullMQ and polling, ensuring a seamless user experience without blocking the UI during document creation. I also built web scraping tools using Puppeteer and enhanced document generation functionality with ReactPDF. My role included creating permission-based sharing features, expandable UI components, and automated version control with GitHub Actions. I consistently maintained high-quality standards through tests (Jest) and comprehensive end-to-end testing (Cypress). Leveraging Storybook, I ensured seamless integration of UI components, delivering a robust and user-friendly experience.",
     icon: React.createElement(FaCode),
-    date: "Mar 2021 - Jun 2022",
+    date: "Jul 2023 - Present",
   },
   {
     title: "Software Engineer at Pabau Clinic Software",
@@ -63,14 +55,21 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "Jan 2022 - Jul 2023",
   },
-  
   {
-    title: "Software Engineer at Adscribe",
-    location: "London, UK ( Remote )",
+    title: "Software Engineer at Starswapp",
+    location: "Prishtina, Kosovo ( Remote )",
     description:
-      "At Adscribe, a cutting-edge AI-recruitment platform, I contributed to building innovative solutions that streamline recruitment processes with unmatched efficiency and precision. I developed a CV formatting tool that enables users to configure CVs by choosing templates, generating candidate-specific CVs, and updating data in real-time with a live preview. The tool also supports exporting CVs as PDFs. Additionally, I implemented partial campaign generation and single document generation using BullMQ and polling, ensuring a seamless user experience without blocking the UI during document creation. I also built web scraping tools using Puppeteer and enhanced document generation functionality with ReactPDF. My role included creating permission-based sharing features, expandable UI components, and automated version control with GitHub Actions. I consistently maintained high-quality standards through tests (Jest) and comprehensive end-to-end testing (Cypress). Leveraging Storybook, I ensured seamless integration of UI components, delivering a robust and user-friendly experience.",
+     "At Starswapp, I worked remotely on diverse projects for clients across industries, delivering innovative solutions with precision and quality. I developed a service car management platform for a Swiss client (Care-Free), enabling efficient scheduling and tracking. I also built Airpop, a React Native social media app, incorporating real-time updates and user-friendly features. For a family business, I created a custom application to streamline operations for mobile homes, kitchens, and bathrooms. Additionally, I designed an e-travel app promoting tourism in Kosovo, featuring interactive maps and curated itineraries. My role also involved developing small e-commerce platforms with responsive designs and secure payment gateways. These experiences refined my skills in problem-solving, remote collaboration, and delivering scalable solutions tailored to client needs.",
     icon: React.createElement(FaCode),
-    date: "Jul 2023 - Present",
+    date: "Dec 2020 - Jan 2022",
+  },
+  {
+    title: "Graduated from University of Business and Technology",
+    location: "Prishtina, Kosovo",
+    description:
+      "Four years of dedicated pursuit culminated in my graduation with a degree in Computer Science and Engineering. This journey symbolizes my commitment to mastering the digital realm, equipping me with the skills to innovate and shape the technological landscape.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019-2023",
   },
 ] as const;
 
