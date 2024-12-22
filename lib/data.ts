@@ -82,14 +82,14 @@ export const projectsData = [
     imageUrl: cvFormatting, 
     url: 'https://adscribe-wiki.super.site/v140-cv-formatting-letterheads-revamped-document-branding-and-more',
   },  
-  {
-    title: "Blue eSIM",
-    description:
-      "A seamless eSIM solution for travelers, offering global coverage, flexible plans, and instant activation to stay connected worldwide.",
-    tags: ["React", "Next.js", "TypeScript", "Node.js", 'PostgreSQL', "Supabase"],
-    imageUrl: blueesim,
-    url: 'https://blue-esim.com/', 
-  },
+  // {
+  //   title: "Blue eSIM",
+  //   description:
+  //     "A seamless eSIM solution for travelers, offering global coverage, flexible plans, and instant activation to stay connected worldwide.",
+  //   tags: ["React", "Next.js", "TypeScript", "Node.js", 'PostgreSQL', "Supabase"],
+  //   imageUrl: blueesim,
+  //   url: 'https://blue-esim.com/', 
+  // },
   {
     title: "Carefree",
     description:
@@ -114,14 +114,14 @@ export const projectsData = [
     imageUrl: ecommerceStore,
     url: "https://ahmet-store.vercel.app/",
   },
-  {
-    title: "AirPop - Social Media Mobile App",
-    description:
-      "Connect with people around you by sharing your moments effortlessly on AirPop. A modern social media app for seamless interactions.",
-    tags: ["React Native", "TypeScript", "Firebase"],
-    imageUrl: airpop, 
-    url: "", 
-  },
+  // {
+  //   title: "AirPop - Social Media Mobile App",
+  //   description:
+  //     "Connect with people around you by sharing your moments effortlessly on AirPop. A modern social media app for seamless interactions.",
+  //   tags: ["React Native", "TypeScript", "Firebase"],
+  //   imageUrl: airpop, 
+  //   url: "", 
+  // },
   {
     title: "Airbnb Clone",
     description:
